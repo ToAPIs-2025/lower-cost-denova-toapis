@@ -1,0 +1,73 @@
+{
+  "base_url": "https://toapis.com/v1",
+  "api_key_env": "TOAPIS_API_KEY",
+  "image": {
+    "submit": {
+      "method": "POST",
+      "path": "/images/generations"
+    },
+    "poll": {
+      "method": "GET",
+      "path": "/images/generations/{task_id}"
+    },
+    "task_id_path": "id",
+    "status_path": "status",
+    "success": "completed",
+    "failure": [
+      "failed",
+      "cancelled",
+      "expired"
+    ],
+    "result_url_path": "result.data.0.url",
+    "billing_path": "billing",
+    "models": [
+      {
+        "id": "gpt-image-2-vip",
+        "display": "gpt-image-2(VIP)",
+        "body": {
+          "model": "gpt-image-2-vip",
+          "prompt": "{{prompt}}",
+          "n": 1,
+          "size": "1:1",
+          "quality": "low",
+          "resolution": "1K"
+        }
+      },
+      {
+        "id": "gpt-image-2.5-flare",
+        "display": "gpt-image-2.5-flare",
+        "body": {
+          "model": "gpt-image-2.5-flare",
+          "prompt": "{{prompt}}",
+          "n": 1,
+          "size": "1:1",
+          "quality": "high",
+          "metadata": {
+            "resolution": "1K"
+          }
+        }
+      },
+      {
+        "id": "gemini-nano-banana-2.1",
+        "body": {
+          "model": "gemini-nano-banana-2.1",
+          "prompt": "{{prompt}}",
+          "n": 1,
+          "size": "1:1",
+          "metadata": {
+            "resolution": "1K"
+          }
+        }
+      }
+    ]
+  },
+  "video": null,
+  "upstream": "alfredxw/denova",
+  "upstream_sha": "b7895383d01abb311ba4bf2690dd1249a9156d26",
+  "upstream_modules": [
+    "internal/image/generation",
+    "config/image_api_profiles.go",
+    "internal/app/image/generation.go"
+  ],
+  "format_note": "ToAPIs integration manifest for maintainers; not an upstream-importable settings format unless separately validated"
+}

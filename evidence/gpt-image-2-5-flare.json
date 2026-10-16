@@ -1,0 +1,29 @@
+{
+  "task_id": "tsk_img_01M51862GJV5GTV94F2XGPDY2K",
+  "model": "gpt-image-2.5-flare",
+  "quote_usd": 0.0225,
+  "actual_charge_usd": null,
+  "actual_dimensions": [
+    1024,
+    1024
+  ],
+  "original_format": "PNG",
+  "billing": null,
+  "request": {
+    "model": "gpt-image-2.5-flare",
+    "prompt": "Original fantasy novel cover illustration without lettering: an ornate brass key floating above a tiny moss-covered library island in a sea of clouds, warm golden light, painterly storybook style, no text, no logos, square frame.",
+    "n": 1,
+    "size": "1:1",
+    "metadata": {
+      "resolution": "1K"
+    },
+    "quality": "high"
+  },
+  "original_output": "examples/gpt-image-2-5-flare.original.png",
+  "date": "2026-10-16",
+  "status": "completed",
+  "prompt": "Original fantasy novel cover illustration without lettering: an ornate brass key floating above a tiny moss-covered library island in a sea of clouds, warm golden light, painterly storybook style, no text, no logos, square frame.",
+  "output": "examples/gpt-image-2-5-flare.png",
+  "sha256": "b759be8d86463561829d0c41b84250d677a824f778a520e9e08780e182fbb1d6",
+  "validation_scope": "Independent API asset adapter example; upstream application UI and native registration not accepted yet"
+}

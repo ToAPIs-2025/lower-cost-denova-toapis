@@ -1,0 +1,9 @@
+{
+  "kind": "image",
+  "model": "gpt-image-2.5-flare",
+  "prompt": "Original fantasy novel cover illustration without lettering: an ornate brass key floating above a tiny moss-covered library island in a sea of clouds, warm golden light, painterly storybook style, no text, no logos, square frame.",
+  "size": "1024x1024",
+  "run_id": "1016-dn-1",
+  "output": "examples/gpt-image-2-5-flare.png",
+  "evidence": "evidence/gpt-image-2-5-flare.json"
+}

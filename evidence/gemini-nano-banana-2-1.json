@@ -1,0 +1,28 @@
+{
+  "task_id": "tsk_img_01M5185DQ0ZMZPXCPNR8GA43SA",
+  "model": "gemini-nano-banana-2.1",
+  "quote_usd": 0.015,
+  "actual_charge_usd": null,
+  "actual_dimensions": [
+    1024,
+    1024
+  ],
+  "original_format": "JPEG",
+  "billing": null,
+  "request": {
+    "model": "gemini-nano-banana-2.1",
+    "prompt": "Original fantasy novel cover illustration without lettering: an ornate brass key floating above a tiny moss-covered library island in a sea of clouds, warm golden light, painterly storybook style, no text, no logos, square frame.",
+    "n": 1,
+    "size": "1:1",
+    "metadata": {
+      "resolution": "1K"
+    }
+  },
+  "original_output": "examples/gemini-nano-banana-2-1.original.jpg",
+  "date": "2026-10-16",
+  "status": "completed",
+  "prompt": "Original fantasy novel cover illustration without lettering: an ornate brass key floating above a tiny moss-covered library island in a sea of clouds, warm golden light, painterly storybook style, no text, no logos, square frame.",
+  "output": "examples/gemini-nano-banana-2-1.png",
+  "sha256": "cf63bc234d2c5ea53ccb517865d712cff98c7cf9a30b01813eccb25a3f2496d8",
+  "validation_scope": "Independent API asset adapter example; upstream application UI and native registration not accepted yet"
+}
