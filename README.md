@@ -4,7 +4,7 @@
 
 Write stories and generate their illustrations.
 
-October 16, 2026: 3 real images. Catalog estimate for these completed assets: **$0.0394**; settled charges pending.
+October 16, 2026: 3 real images. Confirmed charge for these completed assets: **$0.0394 (7.88 credits)**, reconciled by task ID against the owner-provided dashboard export.
 
 [ToAPIs · model pricing and setup](https://go2v.toapis.com/dn16ge)
 
@@ -16,11 +16,11 @@ October 16, 2026: 3 real images. Catalog estimate for these completed assets: **
 
 | Model | Preset | Catalog estimate / output | Settled charge |
 |---|---|---:|---|
-| gpt-image-2(VIP) | low / 1K | $0.0019 | pending |
-| gpt-image-2.5-flare | high / 1K | $0.0225 | pending |
-| Nano Banana 2.1 | 1K | $0.015 | pending |
+| gpt-image-2(VIP) | low / 1K | $0.0019 | $0.0019 |
+| gpt-image-2.5-flare | high / 1K | $0.0225 | $0.0225 |
+| Nano Banana 2.1 | 1K | $0.015 | $0.015 |
 
-These are catalog estimates for the specified presets, not confirmed settled charges. Different models/presets do not imply equal quality. See evidence and examples for task records and originals.
+Catalog rates and confirmed charges match for these tested presets. Charges were reconciled against the owner-provided dashboard export at USD 0.005 per credit. Different models/presets do not imply equal quality. See evidence and examples for task records and originals.
 
 ## Run it
 
